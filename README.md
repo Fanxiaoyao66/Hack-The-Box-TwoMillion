@@ -334,6 +334,8 @@ FUSE文件系统通常由两部分组成：
 
 #### 漏洞利用
 
+> https://github.com/Fanxiaoyao66/CVE-2023-0386 <- 这里有我写好的exp，如果你懒得动手做一遍的话。
+
 准备工作需要创建多个文件夹，构建出一个overlayFS。
 
 ```shell
