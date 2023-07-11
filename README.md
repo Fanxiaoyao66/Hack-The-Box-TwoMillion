@@ -49,7 +49,7 @@ curl: (6) Could not resolve host: 2million.htb
 重定向到2million.htb，在/etc/host中手动解析域名：
 
 ```shell
-sudo echo '10.10.11.221 2million.htb' > /etc/host
+sudo echo '10.10.11.221 2million.htb' >> /etc/host
 ```
 
 ![image-20230628092617936](image/image-20230628092617936.png)
